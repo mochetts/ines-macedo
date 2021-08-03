@@ -20,14 +20,21 @@
 				margin-top: 2em;
     		margin-bottom: 2em;
 			}
+
+			.center-large {
+				text-align: center;
+			}
 		}
 
 		@include breakpoint(medium) {
 			> .inner {
 				display: block;
 
+				.center-large {
+					text-align: left;
+				}
+
 				> :nth-child(2n - 1) {
-					@include padding(4em, 0, (0, 0, 0, 0));
 					border-right: 0;
 					width: 100%;
 				}
@@ -40,9 +47,6 @@
 				> .split {
 					> * {
 						@include padding(3em, 0, (0, 0, 0, 0));
-
-						&:before {
-						}
 					}
 
 					> :first-child {
@@ -50,14 +54,6 @@
 							display: block;
 						}
 					}
-				}
-			}
-		}
-
-		@include breakpoint(small) {
-			> .inner {
-				> :nth-child(2n - 1) {
-					@include padding(3em, 0, (0, 0, 0, 0));
 				}
 			}
 		}
