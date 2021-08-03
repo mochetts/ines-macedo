@@ -20,7 +20,7 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/viviendas/pic01.jpeg')`}}>
                         <header className="major">
                             <h3>Viviendas</h3>
-                            <p>10 apartamentos de 1 y 2 dormitorios</p>
+                            <p>Edificio de 10 apartamentos de 1 y 2 dormitorios</p>
                         </header>
                         <Link href="/viviendas"><a className="link primary"></a></Link>
                     </article>
@@ -44,7 +44,7 @@ export default () => (
                         <header className="major">
                             <h2>Trabajemos juntos</h2>
                         </header>
-                        Busco aplicar herramientas innovadoras para el diseño y presentación de cada proyecto, brindando una solución óptima para cada situación. Hablemos!
+                        Busco aplicar herramientas innovadoras en el diseño y presentación de cada proyecto, brindando una solución óptima para cada situación. Hablemos!
                     </div>
                 </section>
             </div>
