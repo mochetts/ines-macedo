@@ -29,7 +29,7 @@ export default () => (
 
                     <p>Edificio de 10 apartamentos de 1 y 2 dormitorios</p>
                     <p><b>Superficie:</b> 580m2</p>
-                    <p>El edificio fue modelado en Revit, esto permitió anticiparse a interferencias que puedan surgir en la etapa de construcción y agilizar el desarrollo del proyecto.</p>
+                    <p>El edificio fue modelado en <b>Revit</b>, esto permitió anticiparse a interferencias que puedan surgir en la etapa de construcción y agilizar el desarrollo del proyecto.</p>
                     <p><i>Coautores: Pinto Turovlin Arquitectos</i></p>
 
                     <video autoPlay loop style={{ width: '100%', height: '500px' }}>

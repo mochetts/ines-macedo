@@ -22,7 +22,7 @@ export default () => (
                     <p><b>Superficie:</b>  5800m2 (área de trabajo)</p>
 
                     <p>Recibimos planos, detalles y cateos en formato PDF y CAD.</p>
-                    <p>Elaboramos un modelo de coordinación en Revit de ductos y caños de servicios públicos (electricidad, drenaje, agua y gas natural).</p>
+                    <p>Elaboramos un modelo de coordinación en <b>Revit</b> de ductos y caños de servicios públicos (electricidad, drenaje, agua y gas natural).</p>
                     <p>Detectamos interferencias y elaboramos un informe del modelo.</p>
                     <p><i>Coautores: Turcatti Structural Engineering & Bim Consulting Company</i></p>
                 </div>
