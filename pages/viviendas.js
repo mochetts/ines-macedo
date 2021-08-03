@@ -31,6 +31,10 @@ export default () => (
                     <p><b>Superficie:</b> 580m2</p>
                     <p>El edificio fue modelado en Revit, esto permitió anticiparse a interferencias que puedan surgir en la etapa de construcción y agilizar el desarrollo del proyecto.</p>
                     <p><i>Coautores: Pinto Turovlin Arquitectos</i></p>
+
+                    <video autoPlay loop style={{ width: '100%', height: '500px' }}>
+                        <source src="/static/videos/viviendas.mp4" />
+                    </video>
                 </div>
             </section>
         </div>
