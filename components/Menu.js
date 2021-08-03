@@ -5,14 +5,10 @@ const Menu = (props) => (
     <nav id="menu">
         <div className="inner">
             <ul className="links">
-                <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
-                <li><Link href="/landing"><a><span onClick={props.onToggleMenu}>Landing</span></a></Link></li>
-                <li><Link href="/generic"><a><span onClick={props.onToggleMenu}>Generic</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Elements</span></a></Link></li>
-            </ul>
-            <ul className="actions vertical">
-                <li><a href="#" className="button special fit">Get Started</a></li>
-                <li><a href="#" className="button fit">Log In</a></li>
+                <li><Link href="/"><a><span onClick={props.onToggleMenu}>Inicio</span></a></Link></li>
+                <li><Link href="/#proyects"><a><span onClick={props.onToggleMenu}>Proyectos</span></a></Link></li>
+                <li><Link href="/#contact"><a><span onClick={props.onToggleMenu}>Contacto</span></a></Link></li>
+                <li><Link href="/static/files/portfolio.pdf"><a target="_blank"><span>Descargar portfolio</span></a></Link></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
