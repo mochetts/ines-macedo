@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Layout from '../components/Layout'
 import EmblaCarousel from '../components/EmblaCarousel'
+import Link from 'next/link'
 
 export default () => (
     <Layout>
@@ -13,9 +14,12 @@ export default () => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
+                    <Link href="/#projects"><a className="button back scrolly">Proyectos</a></Link>
+
                     <header className="major">
                         <h1>Oficinas</h1>
                     </header>
+
                     <EmblaCarousel slides={[
                         "/static/images/oficinas/pic01.jpeg",
                         "/static/images/oficinas/pic02.jpeg",

@@ -9,7 +9,7 @@ export default () => (
             <Banner />
 
             <div id="main">
-                <section id="proyects" className="tiles">
+                <section id="projects" className="tiles">
                     <article style={{backgroundImage: `url('/static/images/oficinas/pic01.jpeg')`}}>
                         <header className="major">
                             <h3>Oficinas</h3>

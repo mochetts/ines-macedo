@@ -1,6 +1,7 @@
 import Head from "next/head"
 
 import Layout from '../components/Layout'
+import Link from 'next/link'
 
 export default () => (
     <Layout>
@@ -12,9 +13,12 @@ export default () => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
+                    <Link href="/#projects"><a className="button back scrolly">Proyectos</a></Link>
+
                     <header className="major">
                         <h1>MEP</h1>
                     </header>
+
                     <span className="image main"><img src="/static/images/mep/pic01.jpeg" alt="" /></span>
 
                     <p><b>Planta de tratamiento de aguas residuales</b></p>

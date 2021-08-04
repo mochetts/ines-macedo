@@ -68,7 +68,7 @@
 			line-height: 3em;
 		}
 
-		&.next {
+		&.next, &.back {
 			padding-right: 4.5em;
 			position: relative;
 
@@ -105,6 +105,18 @@
 
 			@include breakpoint(large) {
 				padding-right: 5em;
+			}
+		}
+
+		&.back {
+			padding-right: 2em;
+    	padding-left: 5em;
+			margin-bottom: 15px;
+
+			&:before, &:after {
+				transform: rotate(180deg);
+				right: 0em;
+				left: 1.5em;
 			}
 		}
 

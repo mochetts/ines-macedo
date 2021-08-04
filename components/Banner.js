@@ -7,7 +7,7 @@ const Banner = (props) => (
             <div className="content">
                 <p>Arquitecta especializada en el desarrollo de proyectos ejecutivos.</p>
                 <ul className="actions">
-                    <li><a href="#proyects" className="button next scrolly">Proyectos</a></li>
+                    <li><a href="#projects" className="button next scrolly">Proyectos</a></li>
                 </ul>
             </div>
         </div>
