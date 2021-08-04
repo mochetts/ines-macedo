@@ -22,7 +22,7 @@ export default () => (
 
                     <EmblaCarousel slides={[
                         "/static/images/viviendas/pic01.jpeg",
-                        "/static/images/viviendas/pic02.jpeg",
+                        "/static/images/viviendas/pic02.png",
                         "/static/images/viviendas/pic03.jpeg",
                         "/static/images/viviendas/pic04.jpeg",
                         "/static/images/viviendas/pic05.jpeg",

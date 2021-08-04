@@ -24,7 +24,7 @@ export default () => (
                         </header>
                         <Link href="/viviendas"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/urbanismo/pic01.jpeg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/urbanismo/banner.jpeg')`}}>
                         <header className="major">
                             <h3>Urbanismo</h3>
                             <p>Paseo costero y mercado de pesca</p>
